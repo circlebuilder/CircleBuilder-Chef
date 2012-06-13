@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ey recipes upload -e CircleBuilder
+ey recipes apply -e CircleBuilder
+ey recipes upload -e JewishBuilder
+ey recipes apply -e JewishBuilder
+ey recipes upload -e CatholicBuilder
+ey recipes apply -e CatholicBuilder
+ey recipes upload -e CatholicLoyalty
+ey recipes apply -e CatholicLoyalty
+ey recipes upload -e HelpWW
+ey recipes apply -e HelpWW
